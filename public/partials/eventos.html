@@ -1,0 +1,15 @@
+<h1 class="text-center">Listagem</h1>
+<table class="table">
+	<tr ng-repeat="evento in eventos">
+		<td>{{evento.nome}}</td>
+		<td>
+			<button ng-click="remover(evento)" class="btn btn-danger">
+				REMOVER
+			</button>
+		</td>
+	</tr>	
+<table>
+<form>
+	<input type="text" ng-model="evento.nome">
+	<meu-botao titulo="incluir" acao="cadastrar()"></meu-botao>
+</form>

@@ -1,0 +1,22 @@
+{
+  "name": "koajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --harmony server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "consign": "^0.1.2",
+    "koa": "^1.0.0",
+    "koa-bodyparser": "^2.0.1",
+    "koa-router": "^5.1.2",
+    "koa-static": "^1.4.9",
+    "mongoose": "^4.1.6",
+    "passport": "^0.3.0",
+    "passport-jwt": "^1.2.1"
+  }
+}
